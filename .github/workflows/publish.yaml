@@ -1,0 +1,11 @@
+name: Deploy Svelte components
+
+on: [push]
+
+jobs:
+    publish:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
