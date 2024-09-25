@@ -1,7 +1,7 @@
+// vitest.config.js
+import { defineConfig } from 'vitest/config';
 
-const { defineConfig } = require('vitest/config');
-
-module.exports = defineConfig({
+export default defineConfig({
   test: {
     globals: true, // Allows using global variables in your tests
     environment: 'node', // Set the test environment (e.g., 'jsdom', 'node')
@@ -19,3 +19,4 @@ module.exports = defineConfig({
     },
   },
 });
+
