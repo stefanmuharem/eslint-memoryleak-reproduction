@@ -1,0 +1,23 @@
+{
+  "name": "eslint-memoryleak-reproduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanmuharem/eslint-memoryleak-reproduction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanmuharem/eslint-memoryleak-reproduction/issues"
+  },
+  "homepage": "https://github.com/stefanmuharem/eslint-memoryleak-reproduction#readme",
+  "devDependencies": {
+    "eslint": "^9.11.1"
+  }
+}
